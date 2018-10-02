@@ -1,7 +1,16 @@
 
-# PANDAS Importing
+# Importing Data Using Pandas
 
-We've seen a bit of PANDAS to date but will take a more detailed examination of loading files here.
+## Introduction
+
+We've already used Pandas to import data in previous lessons, but in this lesson we'll take a little longer to dive into what's actually going on.
+
+## Objectives
+You will be able to:
+* Import data from csv files and Excel files
+* Understand and explain key arguments for imports
+* Save information to csv and Excel files
+* Access data within a Pandas DataFrame (print() and .head())
 
 # Loading Pandas
 
@@ -1449,7 +1458,6 @@ df.head()
 
 
 
+## Summary
 
-```python
-
-```
+We've spent some time looking into how data importing with Pandas works and some of the methods you can use to manage the import and access the data. In the next lesson, lets get some hands on practice!
