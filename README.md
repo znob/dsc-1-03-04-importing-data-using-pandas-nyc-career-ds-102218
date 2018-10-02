@@ -649,7 +649,7 @@ df.head()
 
     UnicodeDecodeError                        Traceback (most recent call last)
 
-    <ipython-input-13-a2d61668e2c4> in <module>()
+    <ipython-input-6-a2d61668e2c4> in <module>()
     ----> 1 df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', header=1)
           2 df.head()
 
@@ -1457,6 +1457,19 @@ df.head()
 </div>
 
 
+
+# Saving Data
+Once we have data loaded that we may want to export back out, we use the **.to_csv()** or **.to_excel()** methods of any dataframe object.
+
+
+```python
+df.to_csv('NewSavedView.csv', index=False) #Notice how we have to pass index=False if we do not want it included in our output
+```
+
+
+```python
+df.to_excel('NewSavedView.xlsx')
+```
 
 ## Summary
 
