@@ -1123,7 +1123,7 @@ df1.head()
 
 
 ```python
-df2 = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheetname=2)
+df2 = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheet_name=2)
 df2.head()
 ```
 
@@ -1230,7 +1230,7 @@ Or the name of the sheet itself
 
 
 ```python
-df = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheetname='Biz_id_RESDU')
+df = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheet_name='Biz_id_RESDU')
 df.head()
 ```
 
@@ -1355,7 +1355,7 @@ workbook.sheet_names
 
 
 ```python
-df = workbook.parse(sheetname=1)
+df = workbook.parse(sheet_name=1)
 df.head()
 ```
 
